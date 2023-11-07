@@ -33,7 +33,7 @@
 </head>
 <body style="background-color: #a4a4a4;">
 <div class="container">
-    <h1>INFORMASI NILAI</h1>
+    <h1>Informasi Nilai</h1>
     <br />
     <div class="card mb-3">
         <h2 style="padding-left: 15px;">Nilai Siswa</h2>
@@ -73,7 +73,7 @@
                 ?>
                 <div class="text-end">
                     <br />
-                    <a href="course.php" class="btn btn-primary">Back</a>
+                    <a href="#" class="btn btn-primary">Back</a>
                 </div>
             </div>
         </div>

@@ -50,10 +50,10 @@
 </head>
 <body style="background-color: #a4a4a4;">
     <div class="container">
-        <h1>STUDENT INFORMATION</h1>
+        <h1>Course Overview</h1>
         <br />
         <div class="card mb-3"  style= "width:100%; max-width: 1400px;">
-            <h2 style="padding-left: 15px;">Course Overview</h2>
+            <h2 style="padding-left: 15px;">Student Grade</h2>
             <div class="card-body">
                 <div class="row">
                 <?php
