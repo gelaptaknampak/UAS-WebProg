@@ -42,7 +42,7 @@
             opacity: 1;
         }
 
-                .no-underline {
+        .no-underline {
             text-decoration: none;
         }
 
@@ -57,29 +57,15 @@
             <div class="card-body">
                 <div class="row">
                 <?php
-                $cardData = [
-                    [
-                        "title" => "MATEMATIKA WAJIB",
-                        "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum ante eget vulputate ornare. Aenean iaculis ex ac ipsum luctus, non dapibus elit pulvinar",
-                    ],
-                    [
-                        "title" => "Another Subject",
-                        "description" => "Another description for a different subject",
-                    ],
-                    [
-                        "title" => "Yet Another Subject",
-                        "description" => "Description for yet another subject",
-                    ],
-                ];
-                foreach ($cardData as $card) {
+                for ($i = 1; $i <= 9; $i++) {
                     echo '
                     <div class="col-lg-4 mb-3">
-                        <a href="nilai1.php" class="card-link no-underline">
+                        <a href="nilai' . $i . '.php" class="card-link no-underline">
                             <div class="card" style="height: 100%; max-height: 250px; width: 100%; max-width: 400px;">
                                 <div class="blue-top"></div>
                                 <div class="card-body card-text-zoom" style="overflow: auto;">
-                                    <p style="color: black;"><b>' . $card["title"] . '</b></p>
-                                    <p style="color: black; text-decoration: none;">' . $card["description"] . '</p>
+                                    <p style="color: black;"><b>Card ' . $i . '</b></p>
+                                    <p style="color: black; text-decoration: none;">Description for Card ' . $i . '</p>
                                     <p class="view-score-text card-text-zoom-hidden" style="text-align:center;">View Score</p>
                                 </div>
                             </div>
